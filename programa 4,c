@@ -1,0 +1,13 @@
+/*Ramírez Sánchez Valeria Irais 
+programa 4
+El programa pide la cantidad que sea invertido y la tasa de interés a la que se hizo la inversión. Como salida da el monto que se tendrá al finalizar el mes*/
+#include <stdio.h>
+void main(){
+   float I, D, M;
+   printf("Ingrese la cantidad que invirtio\n");
+   scanf("%f", &D);
+   printf("Ingrese la tasa de interés mensual (en porcentaje)\n");
+   scanf("%f", &I);
+   M=D+D*(I/100);
+   printf("El monto que obtendrá al finalizar el mes será de %.2f pesos", M);
+}
