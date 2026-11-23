@@ -5,7 +5,7 @@ El programa pide dos numeros al usuario. Como salida da el reultado de sumar, re
 void main(){
     float n, m,sum, res, mul; 
     printf("Ingrese un dos números separados por un espacio\n");
-    scanf("%f %f", &n, &m);
+    scanf("%f, %f", &n, &m);
     sum=n+m;
     res=n-m;
     mul=n*m;
