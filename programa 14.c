@@ -11,7 +11,7 @@ void main(){
         printf("Ingrese un valor(%d):\n", m+1);
         scanf("%d", &s[m]);
     }
-    printf("Ingrese un número n.\n");
+    printf("Ingrese el número que desea buscar el arreglo.\n");
     scanf("%d", &n);
     for(m=0;m<i;m++){
         if(s[m]==n){
